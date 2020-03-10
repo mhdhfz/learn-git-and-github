@@ -1,0 +1,36 @@
+what is git ?
+    version control system (VCS) for tracking changes in computer files
+    - distributed version control
+    - coordinates work between multiple developers
+    - who made what changes and when
+    - revert back at any time
+    - local and remote repos
+
+concepts of git
+    - keeps track of code history
+    - takes snapshots of files
+    - you decide when to take a snapshot by making a commit
+    - you can visit any snapshot at any time
+    - you can stage files before commiting
+
+basic commands
+    git init - initialize local git repository
+    git add - add files to index
+    git *.html - add any html files to staging area
+    git add . - add all files
+    git rm --cached file - remove file from staging area
+    git status - check status of working tree
+    git commit - commit changes in index
+    git commit -m 'message' - to commit with a message
+    git push - push to remote repository
+    git pull - pull latest from remote repository
+    git clone - clone repository into a new directory
+    .gitignore - file / folder we dont want to add at repository by add filename or folder directory on .gitignore file
+    git branch - create another line from master to ensure we dont spoil the code on master
+    git checkout branch name - to go that branch
+    git merge branch name - to combine branch and master
+
+
+installing git
+    windows - http://git-scm.com/download/win
+
